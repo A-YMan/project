@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a {
+    @apply text-gray-600 hover:text-[#E66C61] transition-colors duration-200;
+  }
+}
+
+/* For navigation links specifically */
+.nav-link {
+  @apply text-gray-600 hover:text-[#E66C61] border-b-2 border-transparent hover:border-[#E66C61] transition-colors duration-200;
+}
+
+/* For button links */
+.button-link {
+  @apply text-white bg-[#E66C61] hover:bg-[#E66C61]/90 transition-colors duration-200;
+} 
