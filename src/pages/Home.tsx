@@ -15,7 +15,7 @@ const featuredBlane = {
   price: 299,
   oldPrice: 599,
   discount: 50,
-  image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=800',
+  image: '/src/assets/images/banner_image.jpeg',
 };
 
 const Home = () => {
@@ -24,7 +24,7 @@ const Home = () => {
       {/* Hero Banner */}
       <section className="relative h-[500px] bg-gradient-to-r from-primary to-primary/80">
         <img
-          src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=1200"
+          src="/src/assets/images/banner_image.jpeg"
           alt="Hero"
           className="absolute inset-0 w-full h-full object-cover mix-blend-overlay"
         />

@@ -5,7 +5,7 @@ const DynamicBanner = () => {
     <section className="relative h-[300px] overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=1200&q=80"
+          src="/src/assets/images/banner_image.jpeg"
           alt="Offre spéciale"
           className="w-full h-full object-cover"
           loading="lazy"

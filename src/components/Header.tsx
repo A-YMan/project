@@ -20,7 +20,7 @@ const Header = () => {
         <div className="flex justify-center py-4">
           <Link to="/" className="inline-block">
             <img
-              src="./dabablanelogo.webp"
+              src="src/assets/images/dabablanelogo.webp"
               alt="DabaBlane"
               className="h-20"
             />

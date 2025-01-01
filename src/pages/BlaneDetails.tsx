@@ -7,9 +7,9 @@ import BlaneBookingForm from '@/components/forms/BlaneBookingForm';
 import BlaneConfirmation from '@/components/blanes/BlaneConfirmation';
 
 const mockImages = [
-  'https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=800',
-  'https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800',
-  'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800',
+  '/src/assets/images/blane1.jpeg',
+  '/src/assets/images/blane2.jpeg',
+  '/src/assets/images/blane3.jpeg',
 ];
 
 const mockBenefits = [
